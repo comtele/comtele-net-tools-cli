@@ -63,9 +63,9 @@ namespace Comtele.Cli
             });
         }
 
-        private static void BuildContextSendCommand(CommandLineApplication app)
+        private static void BuildContextScheduleCommand(CommandLineApplication app)
         {
-            app.Command("contextsend", (command) =>
+            app.Command("contextschedule", (command) =>
             {
                 var key = command.Option("-k|--key", "Chave de envio da API.", CommandOptionType.SingleValue);
                 var sender = command.Option("-s|--sender", "Remetente da mensagem que será enviada.", CommandOptionType.SingleValue);
@@ -82,9 +82,9 @@ namespace Comtele.Cli
             });
         }
 
-        private static void BuildContextScheduleCommand(CommandLineApplication app)
+        private static void BuildContextSendCommand(CommandLineApplication app)
         {
-            app.Command("contextschedule", (command) =>
+            app.Command("contextsend", (command) =>
             {
                 var key = command.Option("-k|--key", "Chave de envio da API.", CommandOptionType.SingleValue);
                 var sender = command.Option("-s|--sender", "Remetente da mensagem que será enviada.", CommandOptionType.SingleValue);
