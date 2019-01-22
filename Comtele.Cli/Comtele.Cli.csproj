@@ -9,10 +9,11 @@
     
     <Authors>Diego Vieira</Authors>
     <Company>Comtele</Company>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Description>CLI para envio de mensagens utilizando a plataforma Comtele.</Description>
     <Product>Comtele CLI</Product>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>Correção das funções de regra de resposta automática.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
